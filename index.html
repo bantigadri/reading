@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="style.css">
+   
+    <script src="time.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.5/jspdf.min.js"></script> 
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <script src="javascript.js"></script>
+    <script src="javascript2.js"></script>
+    <script src="javascript3.js"></script>
+    <script src="download.js"></script>
+ 
+           <script src="main.js"></script>
+           
+          
+<body  onload=display_ct();>  <div class="wapper">
+    <h1 class="reading">Reading Calculator</h1>
+    <div class="reading"><table>
+        <tr><th>R.No.</th2>
+        <th>Paresent<br> Reading</th>
+        <th>Past<br> Reading</th></tr>
+        <tr>
+            <td class="bant">1</td>
+            <td><input type="text" id="p1" class="uc fcs"></td>
+            <td><input type="text" id="pa1" class="uc fcs2 "></td>
+
+        </tr>
+        <tr>
+            <td class="bant">2</td>
+            <td><input type="text" id="p2" class="uc fcs"></td>
+            <td><input type="text" id="pa2" class="uc fcs2"></td>
+
+        </tr> 
+        <tr>
+            <td class="bant">3</td>
+            <td><input type="text" id="p3" class="uc fcs"></td>
+            <td><input type="text" id="pa3" class="uc fcs2"></td>
+
+        </tr>
+        <tr>
+            <td class="bant">4</td>
+            <td><input type="text" id="p4" class="uc fcs"></td>
+            <td><input type="text" id="pa4" class="uc fcs2"></td>
+
+        </tr>
+        <tr>
+            <td class="bant">5</td>
+            <td><input type="text" id="p5" class="uc fcs"></td>
+            <td><input type="text" id="pa5" class="uc fcs2"></td>
+
+        </tr>
+        <tr>
+            <td class="bant">6</td>
+            <td><input type="text" id="p6" class="uc fcs"></td>
+            <td><input type="text" id="pa6" class="uc fcs2"></td>
+
+        </tr>
+        <tr>
+            <td class="bant">7</td>
+            <td><input type="text" id="p7" class="uc fcs"></td>
+            <td><input type="text" id="pa7" class="uc fcs2"></td>
+
+        </tr>
+        <tr>
+            <td class="bant">8</td>
+            <td><input type="text" id="p8" class="uc fcs"></td>
+            <td><input type="text" id="pa8" class="uc fcs2"></td>
+
+        </tr>
+    </table style="boder-collapse:collapse;"></div>
+<div class="bill">
+ <table class="tb2"><tr>
+<td class="mtd">Total Bill</td>
+<td><input type="text" id="totalbill" class="fcs2 "></td>
+ </tr>
+ 
+ <td class="mtd">Es.Sulkhe</td>
+ <td><input type="text" id="slk" class="fcs2 "></td>
+  </tr>
+</table>
+</div>
+</div></div><br>
+<div class="b1">
+<button onclick="generatebill(),gn(),tiime()" class="button1 fcs2" id="bill">Generate Bill</button>
+</div>
+<div class="man" id="readingN"></div>
+<div class="b1">
+<input type="button"  id="create_pdf" value="Download PDF" hidden class="button1"></div>
+<div id="gn"></div>
+<br><br>
+</body>
+</html>
